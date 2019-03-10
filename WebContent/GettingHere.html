@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/GettingHere.css">
+	<link rel="stylesheet" href="css/top.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/GettingHere.js"></script>
+	<script src="js/top.js"></script>
+	
+	
+</head>
+<body>
+	<div id="wrap">
+		<div class="topAll">
+
+			<div class="top1">
+				<div class="top1_box">
+					<ul class="link">
+						<li class="followus">Follow us</li>
+						<li><img src="images/w_facebook.png" width="100%" height="100%"></li>
+						<li><img src="images/w_instagram.png" width="100%" height="100%"></li>
+						<li><img src="images/w_twitter.png" width="100%" height="100%"></li>
+						<li><img src="images/w_youtube.png" width="100%" height="100%"></li>
+						<li><img src="images/w_spotify.png" width="100%" height="100%"></li>
+					</ul>
+					<ul class="lang">
+						<li><img src="images/dot.png" width="15%" height="15%" > DE</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > FR</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > ES</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > EN</li>
+						<li> PT</li>
+					</ul>
+				</div>
+			</div>
+			<div class="top2">
+				<div class=menu_box>
+				<div class="logo" onclick="nosalive()"></div>
+					<ul class="temp_00">
+						<li class="so menu1">NEWS</li>
+						<li>
+							<ul class="so menu2" onclick="LineupPage()">LINEUP</ul>
+								<ul class="sub0">
+										<li onclick="LineupPage()">Lineup</li>
+										<li onclick="schedule()">Schedule</li>
+
+									</ul>
+						</li>
+						<li>
+							<ul class="so num3">THE FESTIVAL </ul>
+							<ul class="sub">
+								<li onclick="GettingHere()">Getting Here</li>
+								<li>Where to Stay</li>
+								<li onclick="atthefestival()">At the Festival</li>
+								<li>Photo</li>
+								<li>Video</li>
+								<li onclick="FAQ()">FAQ</li>
+							</ul>
+						</li>
+						<li class="so menu4">PRESS</li>
+						<li class="so menu5" onclick="sponsors()">SPONSORS</li>
+						<li class="buy"><div class=buy_box>buyticket</div>
+
+						<div class="login">
+						<form action = "Login.do" method = "post">
+							<input class="id" name="id" type="text" placeholder="ID"><br>
+							<input class="pw" name="password" type="password" placeholder="PASSWORD"><br>
+							<button class="loginBtn" type="submit" >login</button>
+							<button class="joinBtn" onclick="location.href = 'MemberRegist.jsp'">Join</button>
+							</form>
+						</div>
+
+
+						</li>
+
+						</ul>
+
+				</div>
+					<div class="logo_small"><img src="/Group_Project/images/logo_01.png" width="100%" height="100%" onclick="nosalive()"></div>
+					<div class=gnb>
+
+						<ul class="temp_01">
+						<li class="s men1">NEWS</li>
+						<li class="s men2">LINEUP     </li>
+						<ul class="temp_03">
+							
+								<li class="s1 men4" onclick="LineupPage()">LineUp</li>
+								<li class="s1 men5" onclick="schedule()">Schedule</li>
+							</ul>	
+							
+							
+							
+						<li class="s men3">THE FESTIVAL </li>
+
+							<ul class="temp_02">
+								<li class="s1 men4" onclick="GettingHere()">Getting Here</li>
+								<li class="s1 men5">Where to Stay</li>
+								<li class="s1 men6" onclick="atthefestival()">At the Festival</li>
+								<li class="s1 men7">Photo</li>
+								<li class="s1 men8">Video</li>
+								<li class="s1 men9" onclick="FAQ()">FAQ</li>
+							</ul>	
+
+						<li class="s men10">PRESS</li>
+						<li class="s men11" onclick="sponsors()">SPONSORS</li>
+						<li class="s mem12">BUYTICKET</li>
+						</ul>
+					</div>
+					<div class="menu_buttn"><img src="images/menu_button.png" width="100%" height="100%"></div>
+
+
+
+
+			</div>
+		</div>
+
+		<div class="mainPicture"><img src="images/GettingHere/GettingHere_main.jpg" width="100%"></div>
+		<div class="gettingHereIconSection">
+		<div class="inner_wrap_01">
+			<h2 class="getting_here">GETTING HERE</h2> </div>
+			<div class="inner_wrap_02">
+				<ul>
+					<li class="icon_location son3"> <img src="images/GettingHere/mapPoint.png"><h4>Location</h4>
+					 </li>
+
+				<li class="icon_train son3"><img src="images/GettingHere/train_yellow.png"><h4>Train</h4>
+					</li>
+
+				<li class="icon_bus son3"><img src="images/GettingHere/bus_yellow.png"><h4>Bus</h4>
+					</li>
+
+				<li class="icon_airplain son3"><img src="images/GettingHere/airplain_yellow.png"><h4>Airport</h4>
+					</li>
+
+				<li class="icon_underground son3"><img src="images/GettingHere/metro_yellow.png"><h4>Underground</h4>
+					</li>
+
+				<li class="icon_car son3"><img src="images/GettingHere/car_yellow.png"><h4>Car</h4>
+					</li>
+				</ul>	
+			</div>
+		</div>
+		<div class="mapSection">
+			<div class="inner_box">
+				<div class="left">
+					<div class="left_inner">
+						<p class="text01">NOS Alive takes place at Passeio Marítimo de Algés, which is only 8 minutes from Lisbon downtown and 15 minutes from the beach.</p>
+
+						<p class="text02">gps:38.697422,-9.231721</p>
+
+
+						<div class="googleIcon"><img src="images/GettingHere/googleMap.png">Google Maps link</div>
+					</div>
+				</div>
+				<div class="right">
+
+					<div class="map"></div>
+
+				</div>
+			</div>
+
+		</div>
+		
+		<div class="airport">
+			<div class="air_inner">
+				<div class="icon"><img src="images/GettingHere/airplain_black.png"><h2 class="textair">Airport</h2></div>
+				<div class="air air_1"><img class="iconrot" src='images/GettingHere/icontotete.png' ></div>
+				<div class="air air_2">
+				<br>
+					<span>Bus:</span>
+					<span>22, 44, 783, 705.</span><br><span>Timetables at: </span><span>www.carris.pt</span>
+				</div>
+				<div class="air air_3"><img class="iconrot" src='images/GettingHere/icontotete.png'></div>
+				<div class="air air_4">
+				<br>
+					<span>Bus: 783</span>
+					<span> – Amoreiras, transfer at the Rotunda do Relógio > 750 > Algés.</span><br>
+					<span>Bus: 705 </span>
+					<span> – Oriente, transfer to Oriente station > 750 > Algés</span><br><br>
+					<span>Timetables at: </span>
+					<span>www.carris.pt</span><br>
+				</div>
+			</div>
+		</div>
+		
+		<div class="train">
+			<div class="tra_inner">
+				<div class="icon_tra"><img src="images/GettingHere/train_black.png"><h2 class="texttra">Train</h2></div>
+				<div class="tra tra_1"><img class="iconrot" src='images/GettingHere/icontotete.png'></div>
+				<div class="tra tra_2">
+					<br>
+					<span>Special Service Intercidades</span>
+					<br>
+					<span>Lisbon Santa Apolónia | Porto:</span>
+					<span>Campanhã: 04:00 a.m (stops at Lisboa Oriente, Santarém, Entroncamento, Pombal, Coimbra-B, Aveiro, Espinho, Gaia and Porto – Campanhã stations)Free bus between the festival and Santa Apolónia train station.</span>
+					<br>
+					<span>Timetables in</span>
+					<span>www.cp.pt</span>
+					<br>
+				</div>
+				<div class="tra tra_3"><img class="iconrot" src='images/GettingHere/icontotete.png'></div>
+				<div class="tra tra_4">
+					<br>
+					<span>Regular Service:</span>
+					<span> 05:30 a.m to 02h15 a.m.</span>
+					<br>
+					<span>Special offer:</span>
+					<span> July 8, 9 and 10:</span>
+					<br>
+					<span>Algés –» C.Sodré: 2h15, 2h30, 2h45, 3h00, 3h30, 4h00, 4h30 e 5h15;</span>
+					<br>
+					<span>Algés –» Cascais: 2h15, 2h30, 2h45, 3h00, 3h30, 4h00 e 4h30.</span>
+					<br>
+					<br>
+					<span>Saturday, July 9, extra trains – C.Sodré –» Oeiras: 18h10, 18h30, 18h50, 19h10, 19h20 e 19h40.</span>
+					<br>
+					<br>
+					<span>Timetables at:</span>
+					<span>www.cp.pt</span>
+					<br>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="bus">
+			<div class="bus_inner">
+				<div class="icon_bus"><img src="images/GettingHere/bus_black.png"><h2 class="textbus">Bus</h2></div>
+				
+				<div class="buss bus_1"><img class="iconrot" src='images/GettingHere/icontotete.png'></div>
+				<div class="buss bus_2">
+				<br>
+				<span>Carris:</span>
+				<br>
+				<span>Day:  723, 729, 750, 751, 776, 15E;</span>
+				<br>
+				<span>Night: 201 723 750.</span>
+				<br>
+				<br>
+				<span>Timetables at:</span>
+				<span>www.carris.pt/pt/simuladores</span>
+				<br>
+				</div>
+				<div class="buss bus_3"><img class="iconrot" src='images/GettingHere/icontotete.png'></div>
+				<div class="buss bus_4">
+				<br>
+					<span>Vimeca:</span>
+					<br>
+					
+					<span>Day: 1, 2, 6, 12, 20, 114, 149, 162.</span>
+					<br><br>
+					<span>Detailed timetables in: </span>
+					<span>www.vimeca.pt</span>
+				</div>
+				<div class="buss bus_5"><img class="iconrot" src='images/GettingHere/icontotete.png'></div>
+				<div class="buss bus_6">
+				<br>
+					<span>From 14h30 to 04:45, every 20 minutes.</span>
+				</div>
+			</div>
+			
+		</div>
+		<div class="underground"></div>
+		<div class="car"></div>
+
+		<div class="footer">
+			<div class="footer_menu">
+			<div class="footer_menu_inner">
+			<ul>
+				<li>NEWS</li>
+				<li>LINEUP
+					<ul class="nummm1">
+						<li class="nummm2" onclick="LineupPage()">Lineup</li>
+						<li class="nummm2" onclick="schedule()">schedule</li>
+					</ul>
+				</li>
+				<li>THE FESTIVAL
+					<ul class="nummm1">
+						<li class="nummm2" onclick="GettingHere()">Getting Here</li>
+						<li class="nummm2">Where to Stay</li>
+						<li class="nummm2" onclick="atthefestival">At the Festival</li>
+						<li class="nummm2">Photo</li>
+						<li class="nummm2">Video</li>
+						<li class="nummm2" onclick="FAQ()">FAQ</li>
+					</ul>
+				</li>
+				<li>PRESS</li>
+				<li onclick="sponsors()">SPONSORS</li>
+				<li>BUYTICKET</li>
+			</ul>
+				</div>
+			</div>
+			<div class="footerIcon"><img src="images/footer.png">
+			
+				<div class="line_01">
+					<span>Política de Cookies</span><span class="noneSpace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>geral@nosalive.com</span>
+				</div>
+				<div class="line_02">
+					<span>NOS ALIVE FESTIVAL</span><br>
+					</div>
+				<div class="line_03">	
+					<span>2016 © Everything is New</span>
+					</div>
+				</div>
+			</div>
+
+
+
+		
+	
+	
+	</div>
+</body>
+</html>

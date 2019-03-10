@@ -1,0 +1,195 @@
+@CHARSET "UTF-8";
+	
+#wrap{
+	width: 100%;
+	height: 100%;
+	
+		
+}	
+
+div.video_bg{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 90px;
+	background: purple;
+	z-index: -1;
+}
+	
+div.clear{
+	height: 100%;
+	width: 100%;
+	position: relative
+}
+
+div.buyTicket{
+	height: 155px;
+	width: 100%;
+	position: relative;
+	background: yellow
+}
+
+div.LineUp{
+	height: 500px;
+	width: 100%;
+	position: relative;
+	background: green
+	
+}
+
+div.ad_01{
+	height: 400px;
+	width: 100%;
+	background: #9696c1;
+	position: relative
+}
+
+div.ad_02{
+	height: 350px;
+	width: 100%;
+	background: yellow;
+	position: relative
+}
+	
+div.video_02{
+	height: 350px;
+	width: 100%;
+	background: green;
+	position: relative
+}
+
+div.ad_03{
+	height: 270px;
+	width: 100%;
+	background: blue;
+	position: relative
+
+}
+
+div.insta{
+	height: 1100px;
+	width: 100%;
+	background: red;
+	position: relative
+}
+
+div.ad_04{
+	height: 120px;
+	width: 100%;
+	background: green;
+	position: relative
+	
+
+}
+
+
+
+div.empty{
+	
+
+}
+/*레이아웃 세팅 끝 */
+
+/*백그라운드 동영상 구성*/
+
+div.video_bg>iframe{
+	height: 110%;
+	width: 100%;
+	position: absolute;
+	top: -150px
+
+	
+}
+
+/*백그라운드 동영상 구성*/
+
+/*두번째 티켓 구매 섹션*/
+
+div.buyTicket{
+	background-image: url(/Group_Project/images/bg_01.png)
+}
+
+div.button {
+	width: 650px;
+	height: 90%;
+	position: relative;
+	top: 5%;
+	margin: auto;
+}
+
+div.button>ul>li.one {
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	left: 1px;
+	background-image: url(/Group_Project/images/facebook.png);
+	background-size: 100% 100%;
+}
+
+div.button>ul>li.two {
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	left: 260px;
+	background-image: url(/Group_Project/images/twitter.png);
+	background-size: 100% 100%;
+}
+
+div.button>ul>li.thr {
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	right: 1px;
+	background-image: url(/Group_Project/images/tumblr.png);
+	background-size: 100% 100%;
+}
+	
+div.button>ul>li{
+	transition: all 0.3s;
+}
+
+div.button>ul>li:hover{
+	margin: 0 auto;
+	transform: scale(1.05,1.05);
+	
+}
+
+
+/*두번째 티켓 구매 섹션 끝*/
+
+
+/*세번째 라인업 섹션*/
+div.LineUp>ul>li {
+	height: 250px;
+	width: 25%;
+	position: relative;
+	float: left;
+	text-align: center;
+	line-height: 16;
+	overflow: hidden;
+	transition: all 1;
+}
+
+div.LineUp>ul>li>img {
+	overflow: hidden;
+	transition: all 2s	
+}
+
+
+div.LineUp>ul>li>img:hover{
+	margin: 0 auto;
+	transform: scale(1.1,1.1);
+	z-index: 3
+}
+
+
+/*세번째 라인업 섹션 끝*/
+
+@media screen and (max-width:768px) {
+	
+	.video_bg{display: none}
+	.clear{}
+
+	
+}
+

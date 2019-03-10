@@ -1,0 +1,141 @@
+@CAHRSET "UTF-8";
+
+
+#wrap{
+	width: 100%;
+	height: 100%;
+	
+		
+}	
+
+div.lineupMain{
+	width: 100%;
+	height: 420px;
+	
+}
+
+div.lineupBox{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+div.tableTicket{
+	width: 100%;
+	height: 500px;
+	background: red;
+	position: relative;
+	top: 960px
+	
+}
+
+
+
+
+/*라인업 뮤지선 박스*/
+
+
+.lineupUl{
+	width: 100%;
+	position: relative
+	
+}
+
+.lineupUl>li{
+	width: 25%;
+	height: 240px;
+	position: relative;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	line-height: 16;
+	
+}
+
+.lineupUl>li>img{
+	width: 100%;
+	height: 150%;
+	position: relative;
+	top: -10px;
+	transition: all 1s	
+	
+
+	
+}
+.lineupUl>li>img:hover{
+	margin: 0 auto;
+	transform: scale(1.1,1.1);
+	z-index: 3
+}
+
+
+
+
+
+
+
+
+h1.lineup_01{
+	position: relative;
+	top: 160px;
+	text-align: center;
+	font-size: 20;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	letter-spacing: -2px
+
+}
+
+div.timetable{
+	width: 200px;
+	height: 50px;
+	position: relative;
+	top: 180px;
+	margin: 0 auto;
+	background: #87c7ff;
+	border-radius: 6px;
+	cursor: pointer
+}
+a.link{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+div.timetable>p{
+	text-align: center;
+	line-height: 55px;
+	color: white
+}
+
+h1.lineup_02{
+	position: relative;
+	top: 260px;
+	text-align: center;
+	font-size: 20;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	letter-spacing: -2px
+}
+
+
+@media screen and (max-width:768px) {
+	.lineupUl>li{float: none;width: 500px;height: 400px;margin: 0 auto}
+	
+
+	
+}
+	
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,541 @@
+	@CHARSET "UTF-8";
+#wrap {
+	width: 100%;
+	height: 100%;
+}
+
+div.section {
+	width: 100%;
+	position: relative;
+}
+
+
+/*section s0*/
+
+div.section.s0 {
+	background: #fff;
+	height: 563px;
+}
+
+div.textline {
+	width: 100%;
+	height: 207px;
+	position: relative;
+}
+
+div.textline>div.text1 {
+	width: 500px;
+	height: 40px;
+	top: 160px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+}
+
+div.ticketbox1 {
+	width: 100%;
+	height: 356px;
+	background: #fff;
+	position: relative;
+}
+
+div.ticketbox1>div.boxcenter {
+	max-width: 1170px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+div.ticketbox1>div.boxcenter>div.tk {
+	width: 47.4%;
+	height: 100%;
+	max-width: 554px;
+	margin: 0 auto;
+	float: left;
+	position: absolute;
+	border-left: 15px solid #fff;
+	border-right: 15px solid #fff
+}
+
+div.ticketbox1>div.boxcenter>div.dticket {
+	background: #fff;
+}
+
+div.wrap_ticket {
+	width: 100%;
+	height: 100%;
+}
+
+div.wrap_ticket:hover {
+	position: absolute;
+	bottom: 20px;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.ticketbox1>div.boxcenter>div.tticket {
+	background: #fff;
+	right: 0px;
+}
+
+div.tic4 {
+	background: #fff;
+	right: 0px;
+}
+
+div.big {
+	width: 100%;
+	height: 215px;
+	background: #383838;
+	cursor: pointer;
+}
+
+div.upptx {
+	width: 100%;
+	height: 50px;
+	background: #303030;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+div.downn {
+	width: 100%;
+	height: 165px;
+	position: relative;
+}
+
+div.downn>div.boxcenter1 {
+	width: 180px;
+	height: 80px;
+	position: absolute;
+}
+
+span.price {
+	position: absolute;
+	color: #fff;
+}
+
+span.p1 {
+	font-size: 18px;
+	top: 13px;
+	left: 40px
+}
+
+span.p2 {
+	font-size: 50px;
+	left: 50px
+}
+
+span.p3 {
+	font-size: 20px;
+	right: 30px;
+	top: 30px
+}
+
+span.p4 {
+	font-size: 18px;
+	top: 13px;
+	left: 15px
+}
+
+span.p5 {
+	font-size: 50px;
+	left: 28px
+}
+
+span.p6 {
+	font-size: 20px;
+	right: 5px;
+	top: 30px
+}
+
+span.price1 {
+	position: absolute;
+	color: #fff;
+	bottom: 0px;
+	left: 50px;
+	font-size: 13px;
+}
+
+div.boxcenter2 {
+	width: 99px;
+	height: 48px;
+	margin: 0 auto;
+	margin-top: 45px
+}
+
+div.small {
+	background: #383838;
+	text-align: center;
+	line-height: 48px;
+	color: #fff;
+	border-radius: 8%;
+	cursor: pointer;
+}
+
+div.small.box_btn1 {
+	background: #555555;
+}
+
+div.small.box_btn2 {
+	background: #a40000;
+}
+
+div.section.s11 {
+	height: 490px;
+}
+
+div.textline1 {
+	width: 100%;
+	height: 112px;
+	position: relative;
+	background: #fff
+}
+
+div.minitk {
+	width: 22.5%;
+	height: 100%;
+	max-width: 277px;
+	margin: 0 auto;
+	float: left;
+	position: absolute;
+	border-left: 15px solid #fff;
+	border-right: 15px solid #fff
+}
+
+div.wrap_mini {
+	width: 263.25px;
+	height: 100%
+}
+
+div.wrap_mini:hover {
+	position: absolute;
+	bottom: 20px;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.ticketbox2 {
+	width: 100%;
+	height: 378px;
+	background: #fff;
+	position: relative;
+}
+
+div.text1_1 {
+	width: 500px;
+	height: 70px;
+	top: 20px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+}
+
+div.boxcenter3 {
+	max-width: 1170px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+div.boxcenter4 {
+	width: 263.25px;
+	height: 165px;
+	position: absolute;
+}
+
+div.tic2 {
+	left: 293px;
+}
+
+div.tic3 {
+	right: 293px;
+}
+
+span.p7 {
+	font-size: 18px;
+	left: 70px;
+	top: 35px;
+}
+
+span.p8 {
+	font-size: 50px;
+	left: 80px;
+	top: 23px
+}
+
+span.p9 {
+	font-size: 17px;
+	right: 60px;
+	top: 53px
+}
+
+span.price2 {
+	position: absolute;
+	color: #fff;
+	font-size: 11px;
+}
+
+span.pratx1 {
+	bottom: 48px;
+	left: 30px;
+}
+
+span.pratx2 {
+	bottom: 30px;
+	left: 60px;
+}
+
+div.bungabox {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	top: 0px;
+	left: 0px;
+}
+
+div.bungabox>a {
+	position: absolute;
+	text-align: center;
+	font-size: 15px;
+	top: 273px;
+	left: 65px;
+	color: #000;
+	text-decoration: none;
+}
+
+div.imgbox {
+	max-width: 1140px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+div.imgbox>img {
+	width: 100%;
+	height: 100%;
+}
+
+div.section.s2 {
+	height: 420px;
+}
+
+div.section.s3 {
+	height: 460px;
+}
+
+div.section.s4 {
+	height: 100px;
+}
+
+div.section.s5 {
+	height: auto;
+	background: #fff
+}
+
+div.outlets {
+	max-width: 1140px;
+	width: 100% height: auto;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+/*832px;64px */
+
+div.icon {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 15px;
+	top: 20px;
+	z-index: 3;
+}
+
+div.adv {
+	height: 63px;
+	background: #666666;
+	border-bottom: 1px solid #000;
+	position: relative;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+p.tt {
+	color: #fff;
+	text-align: center;
+	line-height: 63px;
+	font-weight: bold;
+	margin: 0 auto;
+	position: relative;
+	left: 3px;
+	font-size: 20px;
+}
+
+div.bdv {
+	height: 64px;
+	background: #fff;
+	opacity: 0;
+	max-height: 0;
+	overflow: hidden;
+	transition: 0.6s ease-in-out;
+	text-align: center;
+}
+
+div.bdv.show {
+	opacity: 1;
+	max-height: 500px;
+}
+
+p>a {
+	color: #000;
+	line-height: 63px;
+	position: relative;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+div.bdv>p.sp {
+	font-size: 15px;
+	line-height: 63px;
+	position: relative;
+}
+
+
+/*Ã«Â¯Â¸Ã«â€â€Ã¬â€“Â´Ã¬Â¿Â¼Ã«Â¦Â¬*/
+
+@media all and (max-width:768px) {
+	div.section.s0 {
+		background: #fff;
+		height: 930px;
+	}
+	div.ticketbox1 {
+		width: 100%;
+		height: 702px;
+		position: relative;
+	}
+	div.ticketbox1>div.boxcenter {
+		max-width: 585px;
+		width: 100%;
+		height: 50%;
+		position: relative;
+		margin: 0 auto;
+	}
+	div.ticketbox1>div.boxcenter>div.tk {
+		width: 100%;
+		height: 100%;
+		max-width: 554px;
+		margin: 0 auto;
+		position: relative;
+		border-left: 15px solid #fff;
+		border-right: 15px solid #fff
+	}
+	div.section.s11 {
+		height: 1650px;
+	}
+	div.ticketbox2 {
+		width: 100%;
+		height: 1512px;
+		background: #fff;
+		position: relative;
+	}
+	div.boxcenter3 {
+		width: 584px;
+		height: 100%;
+		position: relative;
+		margin: 0 auto;
+		text-align: center
+	}
+	div.minitk {
+		max-width: 584px;
+		width: 100%;
+		height: 378px;
+		margin: 0 auto;
+		position: relative;
+		border-left: 15px solid #fff;
+		border-right: 15px solid #fff
+	}
+	div.wrap_mini {
+		max-width: 554px;
+		width: 100%;
+		height: 100%
+	}
+	div.tic2 {
+		left: 0px;
+	}
+	div.tic3 {
+		left: 0px;
+	}
+	div.tic4 {
+		left: 0px;
+	}
+	div.boxcenter4 {
+		max-width: 554px;
+		width: 100%;
+		height: 165px;
+		position: absolute;
+	}
+	span.p7 {
+		font-size: 18px;
+		left: 225px;
+		top: 35px;
+	}
+	span.p8 {
+		font-size: 50px;
+		left: 238px;
+		top: 23px
+	}
+	span.p9 {
+		font-size: 17px;
+		right: 188px;
+		top: 53px
+	}
+	span.pratx1 {
+		bottom: 48px;
+		left: 112px;
+	}
+	span.pratx2 {
+		bottom: 48px;
+		left: 310px;
+	}
+	div.bungabox {
+		position: absolute;
+		width: 500px;
+		height: 100px;
+	}
+	div.bungabox>a {
+		position: absolute;
+		text-align: center;
+		font-size: 15px;
+		top: 270px;
+		left: 150px;
+		color: #000;
+	}
+	div.section.s2 {
+		height: 220px;
+	}
+	div.imgbox {
+		width: 560px;
+		height: 151.5px;
+		position: relative;
+		margin: 0 auto;
+		border-left: 15px solid #fff;
+		border-right: 15px solid #fff;
+	}
+	div.section.s3 {
+		height: 220px;
+	}
+	div.outlets {
+		width: 100%;
+		height: auto;
+		position: relative;
+		margin: 0 auto;
+	}

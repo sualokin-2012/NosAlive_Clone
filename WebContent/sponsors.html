@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./css/reset.css" media="all" />
+<link rel="stylesheet" href="./css/sponsors.css" media="all" />
+<link rel="stylesheet" href="./css/top.css" media = "all" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/top.js"></script>
+</head>
+<body>
+<div class="topAll">
+
+			<div class="top1">
+				<div class="top1_box">
+					<ul class="link">
+						<li class="followus">Follow us</li>
+						<li><img src="images/w_facebook.png" width="100%" height="100%"></li>
+						<li><img src="images/w_instagram.png" width="100%" height="100%"></li>
+						<li><img src="images/w_twitter.png" width="100%" height="100%"></li>
+						<li><img src="images/w_youtube.png" width="100%" height="100%"></li>
+						<li><img src="images/w_spotify.png" width="100%" height="100%"></li>
+					</ul>
+					<ul class="lang">
+						<li><img src="images/dot.png" width="15%" height="15%" > DE</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > FR</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > ES</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > EN</li>
+						<li> PT</li>
+					</ul>
+				</div>
+			</div>
+			<div class="top2">
+				<div class=menu_box>
+				<div class="logo" onclick="nosalive()"></div>
+					<ul class="temp_00">
+						<li class="so menu1">NEWS</li>
+						<li>
+							<ul class="so menu2" onclick="LineupPage()">LINEUP</ul>
+								<ul class="sub0">
+										<li onclick="LineupPage()">Lineup</li>
+										<li onclick="schedule()">Schedule</li>
+
+									</ul>
+						</li>
+						<li>
+							<ul class="so num3">THE FESTIVAL </ul>
+							<ul class="sub">
+								<li onclick="GettingHere()">Getting Here</li>
+								<li>Where to Stay</li>
+								<li onclick="atthefestival()">At the Festival</li>
+								<li>Photo</li>
+								<li>Video</li>
+								<li onclick="FAQ()">FAQ</li>
+							</ul>
+						</li>
+						<li class="so menu4">PRESS</li>
+						<li class="so menu5" onclick="sponsors()">SPONSORS</li>
+						<li class="buy"><div class=buy_box>buyticket</div>
+
+						<div class="login">
+						<form action = "Login.do" method = "post">
+							<input class="id" name="id" type="text" placeholder="ID"><br>
+							<input class="pw" name="password" type="password" placeholder="PASSWORD"><br>
+							<button class="loginBtn" type="submit" >login</button>
+							<button class="joinBtn" onclick="location.href = 'MemberRegist.jsp'">Join</button>
+							</form>
+						</div>
+
+
+						</li>
+
+						</ul>
+
+				</div>
+					<div class="logo_small"><img src="/Group_Project/images/logo_01.png" width="100%" height="100%" onclick="nosalive()"></div>
+					<div class=gnb>
+
+						<ul class="temp_01">
+						<li class="s men1">NEWS</li>
+						<li class="s men2">LINEUP     </li>
+						<ul class="temp_03">
+							
+								<li class="s1 men4" onclick="LineupPage()">LineUp</li>
+								<li class="s1 men5" onclick="schedule()">Schedule</li>
+							</ul>	
+							
+							
+							
+						<li class="s men3">THE FESTIVAL </li>
+
+							<ul class="temp_02">
+								<li class="s1 men4" onclick="GettingHere()">Getting Here</li>
+								<li class="s1 men5">Where to Stay</li>
+								<li class="s1 men6" onclick="atthefestival()">At the Festival</li>
+								<li class="s1 men7">Photo</li>
+								<li class="s1 men8">Video</li>
+								<li class="s1 men9" onclick="FAQ()">FAQ</li>
+							</ul>	
+
+						<li class="s men10">PRESS</li>
+						<li class="s men11" onclick="sponsors()">SPONSORS</li>
+						<li class="s mem12">BUYTICKET</li>
+						</ul>
+					</div>
+					<div class="menu_buttn"><img src="images/menu_button.png" width="100%" height="100%"></div>
+
+
+
+
+			</div>
+		</div>
+		
+		<div id="wrap">
+	<div id="middle">
+		<div id="sponsors">
+			<span>SPONSORS</span>
+		</div>
+		<div id="namingsponsors">
+			<div class="sponsors1">NAMING SPONSOR</div>
+			<div class="simage"><a href="http://www.nos.pt/" target = "_blank"><img src="./images/sponsors/이미지 007.png" width=250px height=200px alt="" /></a></div>
+		</div>
+		<div id="premiumsponsors">
+			<div class="ps">PREMIUM SPONSORS</div>
+			<div class="images">
+				<div class="psimage1"><a href="http://www.cm-oeiras.pt/" target = "_blank"><img src="./images/sponsors/이미지 008.png" width=250px height=200px alt=""/></a></div>
+				<div class="psimage2"><a href="http://www.heineken.pt/" target = "_blank"><img src="./images/sponsors/이미지 009.png" width=250px height=200px alt="" /></a></div>
+				<div class="psimage3"><a href="http://www.edp.pt/" target = "_blank"><img src="./images/sponsors/이미지 010.png" width=250px height=200px alt="" /></a></div>
+				<div class="psimage4"><a href="http://www.cgd.pt/" target = "_blank"><img src="./images/sponsors/이미지 011.png" width=250px height=200px alt="" /></a></div>
+				<div class="psimage5"><a href="https://www.allianz.pt/" target = "_blank"><img src="./images/sponsors/이미지 012.png" width=250px height=200px alt="" /></a></div>
+				<div class="psimage6"><a href="http://consumer.huawei.com/pt/index.htm" target = "_blank"><img src="./images/sponsors/이미지 013.png" width=250px height=200px alt="" /></a></div>
+				<div class="psimage7"><a href="http://www.scml.pt/" target = "_blank"><img src="./images/sponsors/이미지 014.png" width=250px height=200px alt="" /></a></div>
+				<div class="psimage8"><a href="http://www.volkswagen.pt/pt.html" target = "_blank"><img src="./images/sponsors/이미지 015.png" width=250px height=200px alt="" /></a></div>
+			</div>
+		</div>
+		<div id="officialsponsors">
+			<div class="os">OFFICIAL SPONSORS</div>
+			<div class="images">
+				<div class="osimage1"><a href="https://www.g-star.com/en_pt" target = "_blank"><img src="./images/sponsors/이미지 016.png" width=250px height=200px alt="" /></a></div>
+				<div class="osimage2"><a href="http://www.fnac.pt/" target = "_blank"><img src="./images/sponsors/이미지 017.png" width=250px height=200px alt="" /></a></div>
+				<div class="osimage3"><a href="https://www.facebook.com/Controlportugal" target = "_blank"><img src="./images/sponsors/이미지 018.png" width=250px height=200px alt="" /></a></div>
+				<div class="osimage4"><a href="http://www.casalgarcia.com/" target = "_blank"><img src="./images/sponsors/이미지 019.png" width=250px height=200px alt="" /></a></div>
+				<div class="osimage5"><a href="http://www.wells.pt/" target = "_blank"><img src="./images/sponsors/이미지 020.png" width=250px height=200px alt="" /></a></div>
+				<div class="osimage6"><a href="http://http://www.ctt.pt/" target = "_blank"><img src="./images/sponsors/이미지 021.png" width=250px height=200px alt="" /></a></div>
+				<div class="osimage7"><a href="http://www.licorbeirao.com/" target = "_blank"><img src="./images/sponsors/이미지 022.png" width=250px height=200px alt="" /></a></div>
+				<div class="osimage8"><a href="https://www.randstad.pt/" target = "_blank"><img src="./images/sponsors/이미지 023.png" width=250px height=200px alt="" /></a></div>
+				<div class="osimage9"><a href="https://www.farmaciasportuguesas.pt/sauda/como-funciona" target = "_blank"><img src="./images/sponsors/이미지 024.png" width=250px height=200px alt="" /></a></div>
+				<div class="osimage10"><a href="http://www.redbull.pt/" target = "_blank"><img src="./images/sponsors/이미지 025.png" width=250px height=200px alt="" /></a></div>
+				<div class="osimage11"><a href="http://www.novodiacafes.com/" target = "_blank"><img src="./images/sponsors/이미지 026.png" width=250px height=200px alt="" /></a></div>
+			</div>
+		</div>
+		<div id="officialpartners">
+			<div class="op">OFFICIAL PARTNERS</div>
+			<div class="images">
+				<div class="opimage1"><a href="http://www.multiopticas.pt/" target = "_blank"><img src="./images/sponsors/이미지 027.png" width=250px height=200px alt="" /></a></div>
+				<div class="opimage2"><a href="http://www.aquafresh.pt/" target = "_blank"><img src="./images/sponsors/이미지 028.png" width=250px height=200px alt="" /></a></div>
+				<div class="opimage3"><a href="http://www.turismodocentro.pt/" target = "_blank"><img src="./images/sponsors/이미지 029.png" width=250px height=200px alt="" /></a></div>
+				<div class="opimage4"><a href="http://www.futah.world/pt/" target = "_blank"><img src="./images/sponsors/이미지 030.png" width=250px height=200px alt="" /></a></div>
+				<div class="opimage5"><a href="http://www.ipdj.pt/" target = "_blank"><img src="./images/sponsors/이미지 031.png" width=250px height=200px alt="" /></a></div>
+			</div>
+		</div>
+		<div id="mediapartners">
+			<div class="mp">MEDIA PARTNERS</div>
+			<div class="images">
+				<div class="mpimage1"><a href="http://www.rtp.pt/" target = "_blank"><img src="./images/sponsors/이미지 032.png" width=250px height=200px alt="" /></a></div>
+				<div class="mpimage2"><a href="http://radiocomercial.clix.pt/" target = "_blank"><img src="./images/sponsors/이미지 033.png" width=250px height=200px alt="" /></a></div>
+				<div class="mpimage3"><a href="http://www.cmjornal.xl.pt/" target = "_blank"><img src="./images/sponsors/이미지 034.png" width=250px height=200px alt="" /></a></div>
+				<div class="mpimage4"><a href="http://www.sabado.pt/" target = "_blank"><img src="./images/sponsors/이미지 035.png" width=250px height=200px alt="" /></a></div>
+				<div class="mpimage5"><a href="http://sol.pt/" target = "_blank"><img src="./images/sponsors/이미지 036.png" width=250px height=200px alt="" /></a></div>
+				<div class="mpimage6"><a href="http://www.nme.com/" target = "_blank"><img src="./images/sponsors/이미지 037.png" width=250px height=200px alt="" /></a></div>
+				<div class="mpimage7"><a href="http://www.lesinrocks.com/" target = "_blank"><img src="./images/sponsors/이미지 038.png" width=250px height=200px alt="" /></a></div>
+			</div>
+		</div>
+		<div id="support">
+			<div class="ss">SUPPORT</div>
+			<div class="images">
+				<div class="simage1"><a href="http://www.cp.pt/passageiros/pt" target = "_blank"><img src="./images/sponsors/이미지 039.png" width=250px height=200px alt="" /></a></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		<div class="footer">
+			<div class="footer_menu">
+			<div class="footer_menu_inner">
+			<ul>
+				<li>NEWS</li>
+				<li>LINEUP
+					<ul class="nummm1">
+						<li class="nummm2" onclick="LineupPage()">Lineup</li>
+						<li class="nummm2" onclick="schedule()">schedule</li>
+					</ul>
+				</li>
+				<li>THE FESTIVAL
+					<ul class="nummm1">
+						<li class="nummm2" onclick="GettingHere()">Getting Here</li>
+						<li class="nummm2">Where to Stay</li>
+						<li class="nummm2" onclick="atthefestival">At the Festival</li>
+						<li class="nummm2">Photo</li>
+						<li class="nummm2">Video</li>
+						<li class="nummm2" onclick="FAQ()">FAQ</li>
+					</ul>
+				</li>
+				<li>PRESS</li>
+				<li onclick="sponsors()">SPONSORS</li>
+				<li>BUYTICKET</li>
+			</ul>
+				</div>
+			</div>
+			<div class="footerIcon"><img src="images/footer.png">
+			
+				<div class="line_01">
+					<span>Política de Cookies</span><span class="noneSpace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>geral@nosalive.com</span>
+				</div>
+				<div class="line_02">
+					<span>NOS ALIVE FESTIVAL</span><br>
+					</div>
+				<div class="line_03">	
+					<span>2016 © Everything is New</span>
+					</div>
+				</div>
+			</div>
+
+	
+</body>
+</html>

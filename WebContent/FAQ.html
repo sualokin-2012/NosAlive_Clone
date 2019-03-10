@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/top.css">
+	<link rel="stylesheet" href="css/faq_00.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/top.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		
+		<div class="topAll">
+
+			<div class="top1">
+				<div class="top1_box">
+					<ul class="link">
+						<li class="followus">Follow us</li>
+						<li><img src="images/w_facebook.png" width="100%" height="100%"></li>
+						<li><img src="images/w_instagram.png" width="100%" height="100%"></li>
+						<li><img src="images/w_twitter.png" width="100%" height="100%"></li>
+						<li><img src="images/w_youtube.png" width="100%" height="100%"></li>
+						<li><img src="images/w_spotify.png" width="100%" height="100%"></li>
+					</ul>
+					<ul class="lang">
+						<li><img src="images/dot.png" width="15%" height="15%" > DE</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > FR</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > ES</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > EN</li>
+						<li> PT</li>
+					</ul>
+				</div>
+			</div>
+			<div class="top2">
+				<div class=menu_box>
+				<div class="logo" onclick="nosalive()"></div>
+					<ul class="temp_00">
+						<li class="so menu1">NEWS</li>
+						<li>
+							<ul class="so menu2" onclick="LineupPage()">LINEUP</ul>
+								<ul class="sub0">
+										<li onclick="LineupPage()">Lineup</li>
+										<li onclick="schedule()">Schedule</li>
+
+									</ul>
+						</li>
+						<li>
+							<ul class="so num3">THE FESTIVAL </ul>
+							<ul class="sub">
+								<li onclick="GettingHere()">Getting Here</li>
+								<li>Where to Stay</li>
+								<li onclick="atthefestival()">At the Festival</li>
+								<li>Photo</li>
+								<li>Video</li>
+								<li onclick="FAQ()">FAQ</li>
+							</ul>
+						</li>
+						<li class="so menu4">PRESS</li>
+						<li class="so menu5" onclick="sponsors()">SPONSORS</li>
+						<li class="buy"><div class=buy_box>buyticket</div>
+
+						<div class="login">
+						<form action = "Login.do" method = "post">
+							<input class="id" name="id" type="text" placeholder="ID"><br>
+							<input class="pw" name="password" type="password" placeholder="PASSWORD"><br>
+							<button class="loginBtn" type="submit" >login</button>
+							<button class="joinBtn" onclick="location.href = 'MemberRegist.jsp'">Join</button>
+							</form>
+						</div>
+
+
+						</li>
+
+						</ul>
+
+				</div>
+					<div class="logo_small"><img src="/Group_Project/images/logo_01.png" width="100%" height="100%" onclick="nosalive()"></div>
+					<div class=gnb>
+
+						<ul class="temp_01">
+						<li class="s men1">NEWS</li>
+						<li class="s men2">LINEUP     </li>
+						<ul class="temp_03">
+							
+								<li class="s1 men4" onclick="LineupPage()">LineUp</li>
+								<li class="s1 men5" onclick="schedule()">Schedule</li>
+							</ul>	
+							
+							
+							
+						<li class="s men3">THE FESTIVAL </li>
+
+							<ul class="temp_02">
+								<li class="s1 men4" onclick="GettingHere()">Getting Here</li>
+								<li class="s1 men5">Where to Stay</li>
+								<li class="s1 men6" onclick="atthefestival()">At the Festival</li>
+								<li class="s1 men7">Photo</li>
+								<li class="s1 men8">Video</li>
+								<li class="s1 men9" onclick="FAQ()">FAQ</li>
+							</ul>	
+
+						<li class="s men10">PRESS</li>
+						<li class="s men11" onclick="sponsors()">SPONSORS</li>
+						<li class="s mem12">BUYTICKET</li>
+						</ul>
+					</div>
+					<div class="menu_buttn"><img src="images/menu_button.png" width="100%" height="100%"></div>
+
+
+
+
+			</div>
+		</div>
+		
+			<div class="empty"></div>
+			<div id="question">
+			<div class="faq1">
+				
+				<h1 class="entry">FAQ</h1> </div>
+			<div class="faq2">
+				<p><b><font size= "3">How can I exchange my 3 day pass for a bracelet?</font></b></p>
+				<p>The 3 day passes must be exchanged for a bracelet on the first day at the entrance of NOS Alive at one of the several points of exchange inside the festival grounds.</p>
+				<br> </div>
+			<div class="faq3">
+				<br>
+				<p><b><font size= "3">Do the 3 day passes include access to the camping site?</font></b></p>
+				<p>No, the access to the camping site (Lisbon Camping) costs between 17 and 29 Euros and can be purchased in the usual places.</p>
+				<br> </div>
+			<div class="faq4">
+				<br>
+				<p><b><font size= "3">What are the restrictions to enter the festival grounds?</font></b></p>
+				<h4>The following objects/items are not allowed at NOS Alive grounds: </h4>
+				<br>
+				<ul>
+					<li>Dangerous objects (knives , any type of weapon, chains, spiky belts and/or bracelets, etc.);</li>
+					<li>Plastic bottles with lids</li>
+					<li>Alcoholic beverages</li>
+					<li>Boxes with food</li>
+					<li>Professional cameras /video cameras</li>
+					<li>Sound recorders</li>
+					<li>Selfie sticks – Iphone/GoPro</li>
+					<li>Animals;</li>
+					<li>Helmets</li>
+					<li>Glass objects (bottles/perfumes, etc.)</li>
+					<li>Anything that may be thrown
+						<br>
+						<br>
+					</li>
+				</ul>
+				<br> </div>
+			<div class="faq45">
+				<p>There’s a cloakroom available at the Welcome Center. The cloakroom is free to store items that are not allowed to enter the venue.
+					<br>
+				</p>
+				<br> </div>
+			<div class="faq5">
+				<br>
+				<p><b><font size= "3">Are tickets already being sold?</font></b></p>
+				<p>Yes, all ticket types are available at the usual points of sale.</p>
+				<br> </div>
+			<div class="faq6">
+				<br>
+				<p><b><font size= "3">If I have a 3 day pass and I attend on the first day, can I make the exchange on the second day?</font></b></p>
+				<p>No, the exchange must be carried out on the first day at entrance of the festival.</p>
+				<p>After the ticket validation on the first day, the ticket is no longer valid and access on the following days is possible only through a bracelet.</p>
+				<br> </div>
+			<div class="faq7">
+				<br>
+				<p><b><font size= "3">Can I enter and exit the festival grounds with my ticket?</font></b></p>
+				<p>If you hold a daily ticket, it is not possible to leave the grounds and get in again, the process being the same as in a regular show. If you hold a three day ticket and you have already the matching bracelet, you may enter and exit the grounds</p>
+				<br> </div>
+			<div class="faq8">
+				<br>
+				<p><b><font size= "3">I bought a 3 day pass and I’m not going on one of the days. Can I give my ticket to a friend for him to go on the day when I’m not going?</font></b></p>
+				<p>No. The ticket is personal and non transferable.</p>
+				<p>Upon entry, the ticket is validated and the next time you enter you must be wearing the bracelet.</p>
+				<p>If you do not have a bracelet, you cannot enter since the ticket has already been validated on the day it was first used.</p>
+				<br> </div>
+			<div class="faq9">
+				<br>
+				<p><b><font size= "3">When I have my bracelet put on can I remove it?</font></b></p>
+				<p>No. Any damage that is visible on the bracelet means the person is not allowed.</p>
+				<p>The bracelet will serve as the entrance ticket to facilitate the control.</p>
+				<p>Therefore, if the bracelet is sewn or loose, you cannot enter the festival grounds.</p>
+				<p>If you have any allergies or a profession that involves removing the bracelet, this should be stated and proven when placing the bracelet so that a new bracelet can be placed daily.</p>
+				<p>The bracelet to be removed must be submitted daily when placing a new one.</p>
+				<br> </div>
+			<div class="faq10">
+				<br>
+				<p><b><font size= "3">I was offered a ticket to the NOS Alive. However, the ticket has the name of the person who bought it. Am I going to have any problems at the entrance?</font></b></p>
+				<p>No, as long as the ticket has not already been used to enter. The name on the ticket only serves to personalize it.</p>
+				<br> </div>
+			<div class="faq11">
+				<br>
+				<p><b><font size= "3">I bought a ticket in one of the online points of sale advertised by NOS Alive. How can I get it?</font></b></p>
+				<p>It depends on the collection/delivery method you have chosen.</p>
+				<p>If you choose delivery by mail or collection at the point of sale, contact it.</p>
+				<p>If you have chosen collection at the festival grounds, you may collect it between 10 am and 11 pm of the respective day for which you purchased your ticket at the NOS Alive’15 ticket office, showing your ID.</p>
+				<p>If the buyer does not collect the ticket, he/she must write a statement with a copy of the ID card, identifying the person authorized to collect the ticket</p>
+				<br> </div>
+			<div class="faq12">
+				<br>
+				<p><b><font size= "3">Is there a ticket office near the festival grounds?</font></b></p>
+				<p>Yes, there is. The ticket office opens at 10 am.</p>
+				<br> </div>
+			<div class="faq13">
+				<br>
+				<p><b><font size= "3">What is the minimum age for entry to the grounds?</font></b></p>
+				<p>The minimum age is 6 years.</p>
+				<br> </div>
+			<div class="faq14">
+				<br>
+				<p><b><font size= "3">After exchanging my 3 day pass for a bracelet, can I through my ticket to the trash?</font></b></p>
+				<p>No. The bracelet is valid for entering and exiting the festival grounds. However, the ticket is the proof of purchase of the ticket and can be requested at any time upon entry. </p>
+				<br> </div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<div class="footer">
+			<div class="footer_menu">
+			<div class="footer_menu_inner">
+			<ul>
+				<li>NEWS</li>
+				<li>LINEUP
+					<ul class="nummm1">
+						<li class="nummm2" onclick="LineupPage()">Lineup</li>
+						<li class="nummm2" onclick="schedule()">schedule</li>
+					</ul>
+				</li>
+				<li>THE FESTIVAL
+					<ul class="nummm1">
+						<li class="nummm2" onclick="GettingHere()">Getting Here</li>
+						<li class="nummm2">Where to Stay</li>
+						<li class="nummm2" onclick="atthefestival">At the Festival</li>
+						<li class="nummm2">Photo</li>
+						<li class="nummm2">Video</li>
+						<li class="nummm2" onclick="FAQ()">FAQ</li>
+					</ul>
+				</li>
+				<li>PRESS</li>
+				<li onclick="sponsors()">SPONSORS</li>
+				<li>BUYTICKET</li>
+			</ul>
+				</div>
+			</div>
+			<div class="footerIcon"><img src="images/footer.png">
+			
+				<div class="line_01">
+					<span>Política de Cookies</span><span class="noneSpace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>geral@nosalive.com</span>
+				</div>
+				<div class="line_02">
+					<span>NOS ALIVE FESTIVAL</span><br>
+					</div>
+				<div class="line_03">	
+					<span>2016 © Everything is New</span>
+					</div>
+				</div>
+			</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+
+	
+</body>
+</html>

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>nosalive.com</title>
+<link rel="stylesheet" href="/Group_Project/css/reset.css">
+<link rel="stylesheet" href="/Group_Project/css/ticket_00.css">
+<link rel="stylesheet" href="/Group_Project/css/top.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="./js/top.js" ></script>
+<script>
+	function son1(){		
+		location.href='http://tour.interpark.com/';
+	}
+	function son2(){		
+		location.href='https://kr.koreanair.com/korea/ko.html';
+	}
+	function son3(){
+		location.href='http://bit.ly/NOSalive16-Camping';	
+	}
+	
+/*absolute, fixed 항상 가운데 오게 하는 방법 */
+/* var body_width=$('div.downn').width()/2;
+var btx_width=$('div.boxcenter1').width()/2;
+var width2=body_width - btx_width;
+$('div.boxcenter1').css({'left':width2}); */
+</script>
+<style>
+div.menu_btn{transition:all 1s} 
+div.menu_btn:hover{transform:rotate(360deg)}
+div.icon{transition:all 0.5s}
+div.icon:hover{transform:rotate(45deg);}
+
+div.box_btn1:hover{background:#383838;}
+div.box_btn2:hover{background:#ff4246;}
+div.adv.active,div.adv:hover{background:#000;}
+.rotation{transform:rotate(45deg);}
+div.bungabox>a:hover{color:#fcd415;}
+p>a:hover{color:#fcd415;}
+
+</style>
+</head>
+<body>
+<div id="wrap">
+		<div class="topAll">
+
+			<div class="top1">
+				<div class="top1_box">
+					<ul class="link">
+						<li class="followus">Follow us</li>
+						<li><img src="images/w_facebook.png" width="100%" height="100%"></li>
+						<li><img src="images/w_instagram.png" width="100%" height="100%"></li>
+						<li><img src="images/w_twitter.png" width="100%" height="100%"></li>
+						<li><img src="images/w_youtube.png" width="100%" height="100%"></li>
+						<li><img src="images/w_spotify.png" width="100%" height="100%"></li>
+					</ul>
+					<ul class="lang">
+						<li><img src="images/dot.png" width="15%" height="15%" > DE</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > FR</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > ES</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > EN</li>
+						<li> PT</li>
+					</ul>
+				</div>
+			</div>
+			<div class="top2">
+				<div class=menu_box>
+				<div class="logo" onclick="nosalive()"></div>
+					<ul class="temp_00">
+						<li class="so menu1">NEWS</li>
+						<li>
+							<ul class="so menu2" onclick="LineupPage()">LINEUP</ul>
+								<ul class="sub0">
+										<li onclick="LineupPage()">Lineup</li>
+										<li onclick="schedule()">Schedule</li>
+
+									</ul>
+						</li>
+						<li>
+							<ul class="so num3">THE FESTIVAL </ul>
+							<ul class="sub">
+								<li onclick="GettingHere()">Getting Here</li>
+								<li>Where to Stay</li>
+								<li onclick="atthefestival()">At the Festival</li>
+								<li>Photo</li>
+								<li>Video</li>
+								<li onclick="FAQ()">FAQ</li>
+							</ul>
+						</li>
+						<li class="so menu4">PRESS</li>
+						<li class="so menu5" onclick="sponsors()">SPONSORS</li>
+						<li class="buy"><div class=buy_box>buyticket</div>
+
+						<div class="login">
+						<form action = "Login.do" method = "post">
+							<input class="id" name="id" type="text" placeholder="ID"><br>
+							<input class="pw" name="password" type="password" placeholder="PASSWORD"><br>
+							<button class="loginBtn" type="submit" >login</button>
+							<button class="joinBtn" onclick="location.href = 'MemberRegist.jsp'">Join</button>
+							</form>
+						</div>
+
+
+						</li>
+
+						</ul>
+
+				</div>
+					<div class="logo_small"><img src="/Group_Project/images/logo_01.png" width="100%" height="100%" onclick="nosalive()"></div>
+					<div class=gnb>
+
+						<ul class="temp_01">
+						<li class="s men1">NEWS</li>
+						<li class="s men2">LINEUP     </li>
+						<ul class="temp_03">
+							
+								<li class="s1 men4" onclick="LineupPage()">LineUp</li>
+								<li class="s1 men5" onclick="schedule()">Schedule</li>
+							</ul>	
+							
+							
+							
+						<li class="s men3">THE FESTIVAL </li>
+
+							<ul class="temp_02">
+								<li class="s1 men4" onclick="GettingHere()">Getting Here</li>
+								<li class="s1 men5">Where to Stay</li>
+								<li class="s1 men6" onclick="atthefestival()">At the Festival</li>
+								<li class="s1 men7">Photo</li>
+								<li class="s1 men8">Video</li>
+								<li class="s1 men9" onclick="FAQ()">FAQ</li>
+							</ul>	
+
+						<li class="s men10">PRESS</li>
+						<li class="s men11" onclick="sponsors()">SPONSORS</li>
+						<li class="s mem12">BUYTICKET</li>
+						</ul>
+					</div>
+					<div class="menu_buttn"><img src="images/menu_button.png" width="100%" height="100%"></div>
+
+
+
+
+			</div>
+		</div>
+		
+		
+		
+		<div class="section s0">
+			<div class="textline">
+				<div class="text1">TICKETS NOS ALIVE' 2016</div>
+			</div>
+			<div class="ticketbox1">
+				<div class="boxcenter">
+					<div class="tk dticket">
+						<div class="wrap_ticket">
+							<div class="big box1">
+								<div class="upptx">DAILY TICKET</div>
+								<div class="downn">
+									<div class="boxcenter1">
+										<span class="price p1">$</span>
+										<span class="price p2">56</span>
+										<span class="price p3">/day</span>
+										<span class="price1">7 • 8 or 9 July</span>
+									</div>
+								</div>
+							</div>
+							<div class="boxcenter2">
+								<div class="small box_btn1">Buy Now</div>
+							</div>	
+						</div>
+					</div>
+					<div class="tk tticket">
+						<div class="wrap_ticket">
+							<div class="big box2">
+								<div class="upptx">3-DAY TICKET</div>
+								<div class="downn">
+								<div class="boxcenter1">
+									<span class="price p4">$</span>
+									<span class="price p5">119</span>
+									<span class="price p6">/3-day</span>
+									<span class="price1">7 • 8 or 9 July</span>
+								</div>
+								</div>
+							</div>
+							<div class="boxcenter2">
+								<div class="small box_btn2">SOLD OUT</div>
+							</div>									
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="section s11">
+			<div class="textline1">
+				<div class="text1_1">Lisbo Camping and Bunglows</div>
+			</div>
+			<div class="ticketbox2">
+				<div class="boxcenter3">
+					<div class="minitk tic1">
+						<div class="wrap_mini">
+							<div class="big box1" onclick="son3()">
+								<div class="upptx">LISBOA CAMPING-3NIGHT</div>
+								<div class="downn">
+									<div class="boxcenter4">
+										<span class="price p7">$</span>
+										<span class="price p8">17</span>
+										<span class="price p9">/3 nights</span>
+										<span class="price2 pratx1">From 7th to 10th of july. Check out by</span> 
+										<span class="price2 pratx2">12h00 of the 10th of july.</span>
+									</div>
+								</div>
+							</div>
+							<div class="bungabox">
+								<a title="bungalows" href="http://www.ticketmonster.co.kr/deal/323537134?_AT=0003010A001C0B0A08C0&utm_source=naver&utm_medium=cpc&utm_term=&utm_content=&utm_campaign=%EB%84%A4%EC%9D%B4%EB%B2%84" target="blank">							
+								Lisboa Camping & Bungalows Info</a>
+							</div>
+						</div>
+					</div>
+					<div class="minitk tic2">
+						<div class="wrap_mini">
+							<div class="big box1" onclick="son3()">
+								<div class="upptx">LISBOA CAMPING-4NIGHT</div>
+								<div class="downn">
+									<div class="boxcenter4">
+										<span class="price p7">$</span>
+										<span class="price p8">23</span>
+										<span class="price p9">/4 nights</span>
+										<span class="price2 pratx1">From 6th to 10th of july. Check out by</span> 
+										<span class="price2 pratx2">12h00 of the 10th of july.</span>
+									</div>
+								</div>
+							</div>
+							<div class="bungabox">
+								<a title="bungalows" href="http://www.ticketmonster.co.kr/deal/323537134?_AT=0003010A001C0B0A08C0&utm_source=naver&utm_medium=cpc&utm_term=&utm_content=&utm_campaign=%EB%84%A4%EC%9D%B4%EB%B2%84" target="blank">
+								Lisboa Camping & Bungalows Info</a>
+							</div>
+						</div>
+					</div>
+					<div class="minitk tic3">
+						<div class="wrap_mini">
+							<div class="big box1" onclick="son3()">
+								<div class="upptx">LISBOA CAMPING-3NIGHT</div>
+								<div class="downn">
+									<div class="boxcenter4">
+										<span class="price p7">$</span>
+										<span class="price p8">23</span>
+										<span class="price p9">/4 nights</span>
+										<span class="price2 pratx1">From 7th to 11th of july. Check out by</span> 
+										<span class="price2 pratx2">12h00 of the 11th of july.</span>
+									</div>
+								</div>
+							</div>
+							<div class="bungabox">
+								<a title="bungalows" href="http://www.ticketmonster.co.kr/deal/323537134?_AT=0003010A001C0B0A08C0&utm_source=naver&utm_medium=cpc&utm_term=&utm_content=&utm_campaign=%EB%84%A4%EC%9D%B4%EB%B2%84" target="blank">
+								Lisboa Camping & Bungalows Info</a>
+							</div>
+						</div>
+					</div>
+					<div class="minitk tic4">
+						<div class="wrap_mini">
+							<div class="big box1" onclick="son3()">
+								<div class="upptx">LISBOA CAMPING-3NIGHT</div>
+								<div class="downn">
+									<div class="boxcenter4">
+										<span class="price p7">$</span>
+										<span class="price p8">29</span>
+										<span class="price p9">/5 nights</span>
+										<span class="price2 pratx1">From 6th to 11th of july. Check out by</span> 
+										<span class="price2 pratx2">12h00 of the 11th of july.</span>
+									</div>
+								</div>
+							</div>
+							<div class="bungabox">
+								<a title="bungalows" href="http://www.ticketmonster.co.kr/deal/323537134?_AT=0003010A001C0B0A08C0&utm_source=naver&utm_medium=cpc&utm_term=&utm_content=&utm_campaign=%EB%84%A4%EC%9D%B4%EB%B2%84" target="blank">
+								Lisboa Camping & Bungalows Info</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+		</div>
+		<div class="section s2">
+			<div class="imgbox" onclick="son1()">
+				<img src="./images/ticket/bilheticaHotelPacks.jpg" alt="이미지X" />
+			</div>
+		</div>
+		<div class="section s3">
+			<div class="imgbox" onclick="son2()">
+				<img src="./images/ticket/flightpacks-en.jpg" alt="이미지X" />
+			</div>
+		</div>
+		<div class="section s4">
+			<div class="textline1">
+				<div class="text1_1">Official NOS Alive Ticket Outlets</div>
+			</div>
+		</div>
+		<div class="section s5">		
+				<div class="outlets">
+					
+						<div class="adv">							
+							<p class="tt">UK</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div class="bdv">
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketFranc,DontrihoTicket,Bangalows factory</p>						
+						</div>
+						
+						<div class="adv">
+							<p class="tt">Portugal</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div  class="bdv">							
+						
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketPortu,factoryTicket,Bangalows Dontriho</p>		
+						</div>
+						
+						<div class="adv">						
+							<p class="tt">Spain</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div class="bdv">							
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketSpain,Spainho Ticket,Bangalows factory</p>
+						</div>
+						
+						<div class="adv">						
+							<p class="tt">France</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div  class="bdv">							
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketFranc,DontrihoTicket,Bangalows factory</p>
+						</div>				
+								
+						<div class="adv">
+							<p class="tt">Belgium</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div class="bdv">							
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketBelgi,Belgium_Ticket,Bangalows factory</p>
+						</div>				  
+						
+						<div class="adv">						
+							<p class="tt">Switzerland</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div  class="bdv">							
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketFranc,SwitzerlandTIK,Bangalows factory</p>
+						</div>				
+						
+						<div class="adv">						
+							<p class="tt">Deutschland</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div class="bdv">							
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketDeuts,DeutschlandTkt,Bangalows factory</p>
+						</div>				  
+						
+						<div class="adv">						
+							<p class="tt">Finland</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div  class="bdv">								
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,FinlandTicK,DontrihoTicket,Bangalows factory</p>
+						</div>		
+						
+						<div class="adv">						
+							<p class="tt">Norway</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div class="bdv">							
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketNorway,DontrihoTicket,Bangalows Norway</p>
+						</div>				
+							
+						<div class="adv">					
+							<p class="tt">Denmark</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div  class="bdv">							
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketDenma,DontrihoTicket,Bangalows Denmark</p>
+						</div>			
+						
+						<div class="adv">
+							<p class="tt">Sweden</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div class="bdv">							
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketSweden,DontrihoTicket,Bangalows Sweden</p>
+						</div>				
+						
+						<div class="adv">
+							<p class="tt">Italy</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div  class="bdv">								
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketItaly,DontrihoTicket,Bangalows ItalyTK</p>
+						</div>				
+						
+						<div class="adv">
+							<p class="tt">Worldwide</p>
+							<div class="icon">
+								<img src="./images/ticket/plus.png" alt="이미지X" />
+							</div>							
+						</div>
+						<div  class="bdv">								
+							
+							<p class="sp sp1"><a title="Seetikets" href="http://www.seetickets.com/Event/nos-alive-16/passeio-maritimo-de-alges/889402" target="blank">Seetickets.com</a>,TicketWorld,WontrihoTicket,Worldwide Bangalo</p>
+						</div>				
+						
+					
+				</div>			
+		</div>
+		
+		<div class="footer">
+			<div class="footer_menu">
+			<div class="footer_menu_inner">
+			<ul>
+				<li>NEWS</li>
+				<li>LINEUP
+					<ul class="nummm1">
+						<li class="nummm2" onclick="LineupPage()">Lineup</li>
+						<li class="nummm2" onclick="schedule()">schedule</li>
+					</ul>
+				</li>
+				<li>THE FESTIVAL
+					<ul class="nummm1">
+						<li class="nummm2" onclick="GettingHere()">Getting Here</li>
+						<li class="nummm2">Where to Stay</li>
+						<li class="nummm2" onclick="atthefestival">At the Festival</li>
+						<li class="nummm2">Photo</li>
+						<li class="nummm2">Video</li>
+						<li class="nummm2" onclick="FAQ()">FAQ</li>
+					</ul>
+				</li>
+				<li>PRESS</li>
+				<li onclick="sponsors()">SPONSORS</li>
+				<li>BUYTICKET</li>
+			</ul>
+				</div>
+			</div>
+			<div class="footerIcon"><img src="images/footer.png">
+			
+				<div class="line_01">
+					<span>Política de Cookies</span><span class="noneSpace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>geral@nosalive.com</span>
+				</div>
+				<div class="line_02">
+					<span>NOS ALIVE FESTIVAL</span><br>
+					</div>
+				<div class="line_03">	
+					<span>2016 © Everything is New</span>
+					</div>
+				</div>
+			</div>
+	
+
+<script>
+var s5_height=$('div.s0').height()+$('div.s1').height()+$('div.s2').height()+$('div.s3').height();
+$('div.box_btn1').on('click',function(){
+	$('html,body').stop().animate({scrollTop:s5_height});
+});
+
+var acc = document.getElementsByClassName("adv");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+    	var idx=$(this).index()/2;
+        this.classList.toggle("active");
+        $('div.icon').eq(idx).toggleClass('rotation');
+        this.nextElementSibling.classList.toggle("show");
+  }
+};
+
+var body_width=$('div.downn').width()/2;
+var btx_width=$('div.boxcenter1').width()/2;
+
+var body_height=$('div.downn').height()/2-10;
+var btx_height=$('div.boxcenter1').height()/2;
+
+var width2=body_width - btx_width;
+
+var top2=body_height - btx_height;
+$('div.boxcenter1').css({'left':width2,'top':top2});
+
+/*
+ $('div.adv').on('click',function(){
+	var idx=$(this).index()/2;
+		//alert(idx);
+	$('div.bdv').hide();
+	$('div.bdv').eq(idx).slideUp({display:'block'});
+	$(this).next('div.bdv:hidden').slideDown({display:'none'});
+	return false; */
+        
+	/* 	
+	$('div.bdv').eq(idx).slideToggle({display:'block'});
+	$('div.adv').eq(idx).css({'background':'#000'}); 
+	$('div.icon').eq(idx).css({'transform':'rotate(45deg)'});
+	
+});*/
+
+
+
+
+</script>
+</div>
+</body>
+</html>

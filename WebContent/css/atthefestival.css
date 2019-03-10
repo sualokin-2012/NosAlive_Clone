@@ -1,0 +1,151 @@
+@CHARSET "UTF-8";
+#wrap{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+div.mofg{
+	width:100%;
+	height:auto;
+	background:#fff;
+	position:relative;	
+	letter-spacing: 1px;
+}
+
+div.mofg>h1.entry{
+	font-size:1.6rem;
+	text-align:center;
+	font-weight: 400;
+	font-family: "BebasNeue",Impact,Arial,Helvetica,sans-serif;
+	letter-spacing:2px;
+}
+
+div.surroundmap{
+	width:100%;
+	height:auto;
+	background:#fff;
+	position:relative;
+	text-align:center;
+	
+}
+
+div.map>img{max-width:1150px; max-height: 550px;}
+
+div.surroundmap>div.map>img:hover{cursor:pointer;}
+
+
+div.downloadmap{
+	width:100%;
+	height:auto;
+	background:#fff;
+	position:relative;
+	text-align:center;
+}
+
+div.areas{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+div.areas>h2.entry{
+	font-size:1.6rem;
+	text-align:center;
+	font-weight: 400;
+	font-family: "BebasNeue",Impact,Arial,Helvetica,sans-serif;
+	letter-spacing:2px;
+	line-height:4.5;
+	}
+
+div.areasbutt{
+	width:100%;
+	height: auto;
+	position:relative;
+	text-align:center;
+}
+
+div.services{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+div.services>h3.entry{
+	font-size:1.6rem;
+	text-align:center;
+	font-weight: 400;
+	font-family: "BebasNeue",Impact,Arial,Helvetica,sans-serif;
+	letter-spacing:2px;
+	line-height:4.5;
+	}
+
+div.servicesbutt{
+	width:100%;
+	height:auto;
+	position:relative;
+	text-align:center;
+}
+
+div.padvice{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+div.padvice>h4.entry{
+	font-size:1.6rem;
+	text-align:center;
+	font-weight: 400;
+	font-family: "BebasNeue",Impact,Arial,Helvetica,sans-serif;
+	letter-spacing:2px;
+	line-height:4.5;
+	}
+
+div.padvicebutt{
+	width:100%;
+	height:auto;
+	position:relative;
+	text-align:center;
+}
+
+div.sr{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+div.sr>h5.entry{
+	font-size:1.6rem;
+	text-align:center;
+	font-weight: 400;
+	font-family: "BebasNeue",Impact,Arial,Helvetica,sans-serif;
+	letter-spacing:2px;
+	line-height:4.5;
+	}
+
+div.srbutt{
+	width:100%;
+	height:auto;
+	position:relative;
+	text-align:center;
+}
+
+div.footer{
+	width:100%;
+	height:auto;
+	position:relative;
+	background:#fff;
+}
+
+
+ul,olx` {list-style-position: inside;}
+
+@media screen and (max-width:768px) {
+	div.surroundmap>div.map{width:100%;text-align:center;}
+	div.areasbutt>button.buttonsss {max-width:768px;width:90%;margin:0 auto;}
+	div.servicesbutt>button.buttonsss {max-width:768px;width:90%;margin:0 auto;}
+	div.padvicebutt>button.buttonsss {max-width:768px;width:90%;margin:0 auto;}
+	div.srbutt>button.buttonsss {max-width:768px;width:90%;margin:0 auto;}
+	div.panel{min-width:75%;}
+}

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./css/reset.css" media="all" />
+<link rel="stylesheet" href="./css/atthefestival.css" media="all" />
+<link rel="stylesheet" href="./css/top.css" media = "all" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/top.js"></script>
+
+
+
+<style>
+button{
+margin:0 auto;}
+
+button.dmap{
+	width:160px;
+	height:55px;
+	background-color: #58B9DA;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    font-size: 13px;
+    transition: 0.4s;
+    padding: 18px;
+    border: none;
+    border-radius:5px;
+    border-color: #58B9DA;
+}
+
+button.dmap:hover{
+	background-color: rgb(0, 172, 237);
+}
+
+button.buttonsss {
+    background-color: #AAB2BD;
+    color: #666;
+    cursor: pointer;
+    padding: 1em;
+    width: 100%;
+    max-width: 1100px;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    font-weight:bold;
+}
+
+button.buttonsss.active, button.buttonsss:hover {
+    background-color: rgb(0, 172, 237);
+    color:#fff;
+
+}
+
+button.buttonsss:before {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.buttonsss.active:before {
+    content: "\2796";
+}
+
+div.panel{
+	position:relative;
+	max-width: 50%;
+	height: auto;	
+	margin:0 auto;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    text-align: left;
+    
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 1000px;
+}
+
+</style>
+</head>
+<body>
+<div class="topAll">
+
+			<div class="top1">
+				<div class="top1_box">
+					<ul class="link">
+						<li class="followus">Follow us</li>
+						<li><img src="images/w_facebook.png" width="100%" height="100%"></li>
+						<li><img src="images/w_instagram.png" width="100%" height="100%"></li>
+						<li><img src="images/w_twitter.png" width="100%" height="100%"></li>
+						<li><img src="images/w_youtube.png" width="100%" height="100%"></li>
+						<li><img src="images/w_spotify.png" width="100%" height="100%"></li>
+					</ul>
+					<ul class="lang">
+						<li><img src="images/dot.png" width="15%" height="15%" > DE</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > FR</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > ES</li>
+						<li><img src="images/dot.png" width="15%" height="15%" > EN</li>
+						<li> PT</li>
+					</ul>
+				</div>
+			</div>
+			<div class="top2">
+				<div class=menu_box>
+				<div class="logo" onclick="nosalive()"></div>
+					<ul class="temp_00">
+						<li class="so menu1">NEWS</li>
+						<li>
+							<ul class="so menu2" onclick="LineupPage()">LINEUP</ul>
+								<ul class="sub0">
+										<li onclick="LineupPage()">Lineup</li>
+										<li onclick="schedule()">Schedule</li>
+
+									</ul>
+						</li>
+						<li>
+							<ul class="so num3">THE FESTIVAL </ul>
+							<ul class="sub">
+								<li onclick="GettingHere()">Getting Here</li>
+								<li>Where to Stay</li>
+								<li onclick="atthefestival()">At the Festival</li>
+								<li>Photo</li>
+								<li>Video</li>
+								<li onclick="FAQ()">FAQ</li>
+							</ul>
+						</li>
+						<li class="so menu4">PRESS</li>
+						<li class="so menu5" onclick="sponsors()">SPONSORS</li>
+						<li class="buy"><div class=buy_box>buyticket</div>
+
+						<div class="login">
+						<form action = "Login.do" method = "post">
+							<input class="id" name="id" type="text" placeholder="ID"><br>
+							<input class="pw" name="password" type="password" placeholder="PASSWORD"><br>
+							<button class="loginBtn" type="submit" >login</button>
+							<button class="joinBtn" onclick="location.href = 'MemberRegist.jsp'">Join</button>
+							</form>
+						</div>
+
+
+						</li>
+
+						</ul>
+
+				</div>
+					<div class="logo_small"><img src="/Group_Project/images/logo_01.png" width="100%" height="100%" onclick="nosalive()"></div>
+					<div class=gnb>
+
+						<ul class="temp_01">
+						<li class="s men1">NEWS</li>
+						<li class="s men2">LINEUP     </li>
+						<ul class="temp_03">
+							
+								<li class="s1 men4" onclick="LineupPage()">LineUp</li>
+								<li class="s1 men5" onclick="schedule()">Schedule</li>
+							</ul>	
+							
+							
+							
+						<li class="s men3">THE FESTIVAL </li>
+
+							<ul class="temp_02">
+								<li class="s1 men4" onclick="GettingHere()">Getting Here</li>
+								<li class="s1 men5">Where to Stay</li>
+								<li class="s1 men6" onclick="atthefestival()">At the Festival</li>
+								<li class="s1 men7">Photo</li>
+								<li class="s1 men8">Video</li>
+								<li class="s1 men9" onclick="FAQ()">FAQ</li>
+							</ul>	
+
+						<li class="s men10">PRESS</li>
+						<li class="s men11" onclick="sponsors()">SPONSORS</li>
+						<li class="s mem12">BUYTICKET</li>
+						</ul>
+					</div>
+					<div class="menu_buttn"><img src="images/menu_button.png" width="100%" height="100%"></div>
+
+
+
+
+			</div>
+		</div>
+		
+		
+<div id="wrap">
+	<div class="mofg">
+		<h1 class="entry">
+		<br><br><br><br>Map of the Festival Grounds
+		</h1>
+	</div>
+	<div class="surroundmap">
+		<div class="map">
+			<img src="./images/atthefestival/이미지 002.png" width = 100%; height= auto alt="" />
+		</div>
+	</div>
+	<div class="downloadmap">
+		<button class="dmap">DOWNLOAD MAP</button>
+	</div>
+	<div class="areas">
+	<br><br><br>
+		<h2 class="entry">Areas</h2>
+	</div>
+	<div class="areasbutt">
+		<button class="buttonsss">Wristband Exchange Points</button>	
+			<div class="panel">
+  				<p><br><br>It is mandatory to exchange your 3 day Pass for a NOS Alive wristband to have access to the festival site over the three days.
+					This exchange will have to be made on the first day you go to NOS Alive, at one of the several exchange points located within the grounds.
+					Those who wish can also exchange the 3 day Pass for a wristband at the information desk of the Alegro Alfragide Shopping Centre.</p>
+				<br>
+				<p>During the three days of the festival, there are free buses that run between the Shopping Centre and the NOS Alive (see more information in the transport section).</p>
+				<br>
+				<p>If you have an integrated Train ticket Linha de Cascais + NOS Alive, keep it because it will be your access to the train for the three days.<br><br><br></p>
+			</div>
+		<br>
+		<button class="buttonsss">Food and Terrace / Food Hall</button>	
+			<div class="panel">
+				<p><br><br>At the NOS Alive food hall you will find a wide variety of food from pizza to sushi, vegetarian options, bread with dried sausage and of course hamburgers made with the best meat of Alentejo, among many other options . You can still enjoy your meal comfortably seated in the huge terrace of the NOS Alive.</p>
+ 				<br>
+			</div>
+		<br>
+		<button class="buttonsss">Medical Assistance</button>
+			<div class="panel">
+  				<p><br><br>NOS Alive has a field hospital so you can be seen on the premises. It is easy to find the hospital on the map.<br><br><br></p>
+			</div>
+	</div>
+	
+	<div class="services">
+	<br><br><br>
+		<h3 class="entry">Services</h3>
+	</div>
+	<div class="servicesbutt">
+		<button class="buttonsss">Reduced Mobility</button>
+		
+			<div class="panel">
+			
+  				<p><br><br>The NOS Alive prepared a special treat for people with reduced mobility – the Special Access service.</p>
+		<br>		
+				<p>The Special Access provides: </p>
+		<br>	
+				<ul>
+					<li>A faster and more comfortable entry into the festival grounds for people with reduced mobility;</li>
+					<li>Booking seat on the conditioned mobility platforms of the NOS Stage, Heineken Stage and Clubbing Stage;</li>
+				</ul>
+		<br>
+  				<p>This service is provided to the person with reduced mobility and his/her respective companion (adult), subject to prior registration.</p>
+  		<br>		
+  				<p><b>Important Notes:</b></p>
+  		<br>		
+  				<ol type="1">
+  					<li> The person with reduced mobility and his/her companion must hold a valid ticket for the festival;</li>
+  					<li> Medical proof of the health state /reduced mobility;</li>
+  				</ol>
+  		<br>	
+  				<p><b>More information and form available at nosalive.com/specialaccess<br><br></b></p>
+  
+  			</div>
+		<br>
+		
+		<button class="buttonsss">Future Moms Area</button>
+			
+			<div class="panel">
+			
+				<p><br><br>The NOS Alive prepared a special treat for Future Moms – the Special Access service.</p>
+				<p>Subscriptions at <a href="http://nosalive.com/specialaccess">nosalive.com/specialaccess</a></p>
+		<br>		
+				<p><b>The Special Access provides: </b></p>
+		<br>	
+				<ul>
+					<li>A faster and more comfortable entry into the festival grounds for Future Moms</li>
+					<li>Booking seat on the conditioned mobility platforms of the NOS Stage, Heineken Stage and Clubbing Stage;</li>
+					<li>Booking seat in the Pregnant Women Area with excellent view to the NOS Stage.</li>
+					
+				</ul>
+		<br>
+  				<p>This service is provided to the Future Mom and her respective companion (adult), subject to prior registration.</p>
+  		<br>		
+  				<p><b>Important Notes:</b></p>
+  		<br>		
+  				<ol type="1">
+  					<li> The Future Mom and her companion must hold a valid ticket for the festival;</li>
+  					<li> Medical proof of the health state of the Future Mom is required.</li>
+  				</ol>
+  		<br>	
+  
+  			</div>
+		<br>
+		<button class="buttonsss">Police Mobile Desk</button>
+			<div class="panel">	
+  				<p><br><br>Despite the peaceful and friendly environment at NOS Alive, there is a Police Mobile Desk within the grounds in order to attend to any situation. It is also at the Police Mobile Desk that the lost and found section can be found. You can find the Police Mobile Desk at the Welcome Centre (Ticket Offices and Cloakroom).<br><br></p>	
+  			</div>
+  		<br>
+  		<button class="buttonsss">Mobile phone battery charging</button>
+			<div class="panel">	
+  				<p><br><br>At the NOS Meeting Point and at the EDP Stand you will find power supply points to charge your mobile phone battery.<br><br></p>	
+  			</div>
+	</div>
+	<div class="padvice">
+	<br><br><br>
+		<h4 class="entry">Practical Advice</h4>
+	</div>
+	<div class="padvicebutt">
+		<button class="buttonsss">What you should take with you:</button>
+			<div class="panel">
+		<br><br>
+  				<ul>
+					<li>Sunglasses and/or hat or cap;</li>
+					<li>Earplugs;</li>
+					<li>Personal identification or passport;</li>
+					<li>Warm clothes for the night.</li>
+				</ul>
+		<br><br>
+			</div>
+		<br>
+		<button class="buttonsss">The following objects/items are not allowed at NOS Alive'16 grounds:</button>
+			<div class="panel">
+		<br><br>
+				<ul>
+					<li>Dangerous objects (knives , any type of weapon, chains, spiky belts and/or bracelets, etc.)</li>
+					<li>Plastic bottles with lids</li>
+					<li>Alcoholic beverages</li>
+					<li>Boxes with food</li>
+					<li>Professional cameras /video cameras</li>
+					<li>Sound recorders</li>
+					<li>Selfie sticks – Iphone/GoPro</li>
+					<li>Animals;</li>
+					<li>Helmets</li>
+					<li>Glass objects (bottles/perfumes, etc.)</li>
+					<li>Anything that may be thrown<br><br></li>
+				</ul>
+		<br>
+				<p>There’s a cloakroom available at the Welcome Center. The cloakroom is free to store items that are not allowed to enter the venue.<br></p>
+		<br>
+			</div>
+		<br>
+		<button class="buttonsss">Keep in mind:</button>
+			<div class="panel">
+		<br><br>
+				<ul>
+					<li>Drink plenty of water.</li>
+					<li>Don’t forget to apply sunscreen before coming to the venue.</li>
+					<li>Do not bring valuable items.</li>
+					<li>Hire a travel insurance if you are travelling from outsider Portugal.</li>
+				</ul>
+			</div>
+	</div>
+	<div class="sr">
+	<br><br><br>
+		<h5 class="entry">Social Responsibility</h5>
+	</div>
+	<div class="srbutt">
+		<button class="buttonsss">Zero waste</button>
+			<div class="panel">
+		<br><br>
+  				<p><b>Portugal can’t afford to waste!</b></p>
+  		<br>
+				<p>The Dariacordar – Zero Waste Movement promotes the recovery of food surpluses generated naturally in many cafeterias, restaurants and events in the form of cooked food that was not served.</p>
+		<br>		
+				<p>From April 2012 to December 2014 the NOS Alive joined the Zero Waste movement and has recovered more than 1.5 million meals that previously were thrown away.</p>
+		<br>		
+				<p>In addition to the staff and artists catering, also the caterers present in the grounds have associated with this spontaneous movement, created by “DariAcordar”, an Association Against Waste.</p>
+		<br>		
+				<p>All the food that complies with the ASAE requirements and is not consumed during the NOS Alive will be collected over night and delivered in the morning of the following day to charities in the municipality of Oeiras.</p>
+		<br>		
+				<p>According to the Association data, on a daily basis, there are 50,000 meals that do not come out of the restaurants kitchens all over the country and end up in the trash. Meanwhile, about 360 thousand people go hungry.</p>
+		<br>		
+				<p>The Zero Waste movement intends to bridge the gap by collecting from the associated restaurants all meals that have not been served or whose shelf life is nearing the end in order to distribute them to the needy.</p>			
+			</div>
+	</div>
+<br><br><br><br><br><br>
+</div>
+
+
+	<div class="footer">
+			<div class="footer_menu">
+			<div class="footer_menu_inner">
+			<ul>
+				<li>NEWS</li>
+				<li>LINEUP
+					<ul class="nummm1">
+						<li class="nummm2" onclick="LineupPage()">Lineup</li>
+						<li class="nummm2" onclick="schedule()">schedule</li>
+					</ul>
+				</li>
+				<li>THE FESTIVAL
+					<ul class="nummm1">
+						<li class="nummm2" onclick="GettingHere()">Getting Here</li>
+						<li class="nummm2">Where to Stay</li>
+						<li class="nummm2" onclick="atthefestival">At the Festival</li>
+						<li class="nummm2">Photo</li>
+						<li class="nummm2">Video</li>
+						<li class="nummm2" onclick="FAQ()">FAQ</li>
+					</ul>
+				</li>
+				<li>PRESS</li>
+				<li onclick="sponsors()">SPONSORS</li>
+				<li>BUYTICKET</li>
+			</ul>
+				</div>
+			</div>
+			<div class="footerIcon"><img src="images/footer.png">
+			
+				<div class="line_01">
+					<span>Política de Cookies</span><span class="noneSpace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>geral@nosalive.com</span>
+				</div>
+				<div class="line_02">
+					<span>NOS ALIVE FESTIVAL</span><br>
+					</div>
+				<div class="line_03">	
+					<span>2016 © Everything is New</span>
+					</div>
+				</div>
+			</div>
+
+<script>
+var acc = document.getElementsByClassName("buttonsss");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+
+$("button.dmap").click(function() {
+    alert("아직 준비중입니다.");
+});
+
+$("div.surroundmap>div.map>img").click(function() {
+    alert("아직 준비중입니다.");
+});
+
+
+</script>
+
+</body>
+</html>

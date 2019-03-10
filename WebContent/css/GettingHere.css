@@ -1,0 +1,456 @@
+@CHARSET "UTF-8";
+
+#wrap{
+	width: 100%;
+	height: 100%;
+}
+
+div.mainPicture{
+	width: 100%;
+	height: 440px;
+	min-width: 800px;
+	position: relative;
+}
+
+div.gettingHereIconSection{
+	width: 100%;
+	height: 200px;
+	background: rgb(38, 38, 38);
+	position: relative
+}
+
+div.mapSection{
+	width: 100%;
+	height: 360px;
+	background: rgb(213, 213, 213);
+	position: relative
+}
+
+div.airport{
+	width: 100%;
+	height: auto;
+	background: rgb(255, 255, 255);
+	position: relative
+}
+
+div.train{
+	width: 100%;
+	height: auto;
+	background: rgb(213, 213, 213);
+	position: relative
+}
+
+div.bus{
+	width: 100%;
+	height: auto;
+	background: rgb(255, 255, 255);
+	position: relative;
+}
+
+div.underground{
+	width: 100%;
+	height: auto;
+	background: rgb(213, 213, 213);
+	position: relative
+}
+
+div.car{
+	width: 100%;
+	height: auto;
+	background: rgb(255, 255, 255);
+	position: relative
+}
+/*아이콘 섹션들*/
+
+
+div.inner_wrap_01{
+	height: 80px
+}
+
+h2.getting_here{
+	color: #fce32f;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+	position: relative;
+	top: 30px
+}
+
+div.inner_wrap_02{
+	height: 120px;
+	width: 90%;
+	position: relative;
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+div.inner_wrap_02>ul{
+	width: 90%;
+	height: auto;
+	position: relative;
+	margin: 0 auto
+}
+div.inner_wrap_02>ul>li{
+	float: left;
+	width: 16%;
+	min-width:60px;
+	
+}
+
+div.inner_wrap_02>ul>li>img{
+	display: block;
+	margin: 0 auto
+	
+}
+
+
+div.inner_wrap_02>ul>li>h4{
+	position: relative;
+	text-align: center;
+	color: #fce32f;
+	font-weight: 100
+}
+
+/*맵섹션*/
+
+div.inner_box{
+	width: 70%;
+	height: 320px;
+	max-width: 1170px;
+	position: relative;
+	top: 20px;
+	margin: 0 auto;
+}
+
+div.left{
+	width: 39%;
+	height: 100%;
+	position: absolute;
+	min-width: 220px;
+	
+}
+
+div.left_inner{
+	height: 100%;
+	box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 30px;
+    width: 100%;
+	min-width: 220px
+}
+
+p.text01{
+	position: relative;
+	width: 100%;
+	height: auto;
+	line-height: 160%
+}
+
+p.text02{
+	position: relative;
+	top: 20px
+	
+}
+
+div.googleIcon{
+	position: absolute;
+	bottom: 40px;
+	font-weight: 500
+	
+}
+
+div.right{
+	width: 55%;
+	height: 100%;
+	background: gray;
+	position: absolute;
+	left: 39%
+	
+	
+
+}
+
+/*에어포트섹션*/
+
+div.air_inner{
+	width: 65%;
+	position: relative;
+	margin: 0 auto;
+	max-width: 750px;
+	min-width: 500px;
+	padding-top: 40px;
+	padding-bottom: 40px
+	
+}
+div.icon{
+	width: 50px;
+	height: 70px;
+	position: relative;
+	left: -60px
+}
+
+h2.textair{
+	position: absolute;
+	top: 14px;
+	left: 70px 
+}
+
+div.air{
+	
+	height: 60px;
+	position: relative;
+	margin: 0 auto;
+	
+	
+}
+
+div.air_1{	
+	background: rgb(38, 38, 38);
+	position: relative
+}
+
+div.air_1:hover{
+	background-color: #ffce00
+}
+
+div.air_1:hover img.what{
+	filter: invert()
+}
+
+div.air_2{
+	height: 80px;
+	position: relative;
+	display: none;
+	margin-left: 30px
+}
+
+div.air_3{
+	background: rgb(38, 38, 38);
+	position: relative
+}
+div.air_3:hover{
+	background-color: #ffce00
+}
+
+div.air_4{
+	height: auto;
+	position: relative;
+	margin-bottom: 50px;
+	display: none;
+	margin-left: 30px
+	
+}
+/*트레인섹션*/
+
+div.tra_inner{
+	width: 65%;
+	position: relative;
+	margin: 0 auto;
+	max-width: 750px;
+	min-width: 500px;
+	padding-top: 40px;
+	padding-bottom: 40px
+	
+}
+
+div.icon_tra{
+	width: 50px;
+	height: 70px;
+	position: relative;
+	left: -60px
+}
+
+h2.texttra{
+	position: absolute;
+	top: 14px;
+	left: 70px 
+}
+
+div.tra{
+	
+	height: 60px;
+	position: relative;
+	margin: 0 auto;
+}
+
+div.tra_1{	
+	background: rgb(38, 38, 38);
+	position: relative
+}
+
+div.tra_1:hover{
+	background-color: #ffce00
+}
+
+div.tra_2{
+	height: 100px;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	display: none;
+	margin-left: 30px
+}
+
+div.tra_3{
+	background: rgb(38, 38, 38);
+	position: relative
+}
+div.tra_3:hover{
+	background-color: #ffce00
+}
+
+div.tra_4{
+	height: auto;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	display: none;
+	margin-left: 30px
+	
+}
+
+/*버스섹션*/
+
+
+div.bus_inner{
+	width: 65%;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+	max-width: 750px;
+	min-width: 500px;
+	padding-top: 4px;
+	padding-bottom: 40px
+	
+}
+
+div.icon_bus{
+	width: 50px;
+	height: 70px;
+	position: relative;
+	left: -60px
+}
+
+h2.textbus{
+	position: absolute;
+	top: 14px;
+	left: 70px 
+}
+
+div.buss{
+	
+	height: 60px;
+	position: relative;
+	margin: 0 auto;
+}
+
+div.bus_1{	
+	background: rgb(38, 38, 38);
+	position: relative
+}
+
+div.bus_1:hover{
+	background-color: #ffce00
+}
+
+div.bus_2{
+	height: 100px;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	display: none;
+	margin-left: 30px
+}
+
+div.bus_3{
+	background: rgb(38, 38, 38);
+	position: relative
+}
+div.bus_3:hover{
+	background-color: #ffce00
+}
+
+div.bus_4{
+	height: auto;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	display: none;
+	margin-left: 30px
+	
+}
+
+div.bus_5{
+	background: rgb(38, 38, 38);
+	position: relative
+}
+div.bus_5:hover{
+	background-color: #ffce00
+}
+
+div.bus_6{
+	height: auto;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	display: none;
+	margin-left: 30px
+	
+}
+
+
+
+
+
+/*아이콘 회전*/
+
+
+
+
+
+
+/*아코디언 백그라운드 색 바꾸기*/
+
+.changeBackground{
+   background-color: #ffce00 !important;
+}
+
+img.iconrot{
+	width: 15px;
+	height: 15px;
+	position: relative;
+	left: 15px;
+	top: 20px;
+	transition: all 0.5s;
+}
+
+.rotationicon{
+	transform: rotate(45deg);
+	
+}
+
+/*//////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+	
+	div.mainPicture{left: -100px}
+	div.gettingHereIconSection{height: 700px}
+	div.mapSection{height: 700px}
+	div.right{top: 100%;width: 100%;left: 0}
+	div.left{width: 100%}
+	div.inner_wrap_02>ul>li{float: none;margin: 20px auto}
+
+	
+}
