@@ -92,13 +92,20 @@ div.empty{
 
 /*백그라운드 동영상 구성*/
 
+/*
 div.video_bg>iframe{
 	height: 110%;
 	width: 100%;
 	position: absolute;
-	top: -150px
+	top: -150px	
+}
+*/
 
-	
+div.video_bg{
+	height: 110%;
+	width: 100%;
+	position: absolute;
+	top: -150px	
 }
 
 /*백그라운드 동영상 구성*/
