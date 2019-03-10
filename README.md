@@ -3,7 +3,7 @@ This web project is to build a clone of 'Nos Alive' website using HTML, CSS, Jav
 
 ## Objectives and Functions
 
-Website that provide information on music festival 
+Website that provides information for Nos Alive music festival 
 
 C/R/U/D for members
 
