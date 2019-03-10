@@ -48,37 +48,37 @@ $(document).ready(function(){
 	
 
 function GettingHere(){
-		location.href='/Group_Project/GettingHere.html';
+		location.href='/NosAlive_Clone/GettingHere.html';
 	}
 	
 function LineupPage(){
-		location.href='/Group_Project/LineupPage.html';
+		location.href='/NosAlive_Clone/LineupPage.html';
 	}
 	
 	
 function FAQ(){
-		location.href='/Group_Project/FAQ.html';
+		location.href='/NosAlive_Clone/FAQ.html';
 	}
 	
 	
 function nosalive(){
-		location.href='/Group_Project/nosalive.html';
+		location.href='/NosAlive_Clone/nosalive.html';
 	}
 	
 	
 function ticket(){
-		location.href='/Group_Project/ticket.html';
+		location.href='/NosAlive_Clone/ticket.html';
 	}
 	
 function sponsors(){
-		location.href='/Group_Project/sponsors.html';
+		location.href='/NosAlive_Clone/sponsors.html';
 	}
 function atthefestival(){
-		location.href='/Group_Project/atthefestival.html';
+		location.href='/NosAlive_Clone/atthefestival.html';
 	}
 
 function schedule(){
-		location.href='/Group_Project/images/Lineup/allLineUp.jpg';
+		location.href='/NosAlive_Clone/images/Lineup/allLineUp.jpg';
 }
 	
 	

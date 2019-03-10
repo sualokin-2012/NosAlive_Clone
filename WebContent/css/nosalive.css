@@ -106,7 +106,7 @@ div.video_bg>iframe{
 /*두번째 티켓 구매 섹션*/
 
 div.buyTicket{
-	background-image: url(/Group_Project/images/bg_01.png)
+	background-image: url(/NosAlive_Clone/images/bg_01.png)
 }
 
 div.button {
@@ -122,7 +122,7 @@ div.button>ul>li.one {
 	height: 140px;
 	position: absolute;
 	left: 1px;
-	background-image: url(/Group_Project/images/facebook.png);
+	background-image: url(/NosAlive_Clone/images/facebook.png);
 	background-size: 100% 100%;
 }
 
@@ -131,7 +131,7 @@ div.button>ul>li.two {
 	height: 140px;
 	position: absolute;
 	left: 260px;
-	background-image: url(/Group_Project/images/twitter.png);
+	background-image: url(/NosAlive_Clone/images/twitter.png);
 	background-size: 100% 100%;
 }
 
@@ -140,7 +140,7 @@ div.button>ul>li.thr {
 	height: 140px;
 	position: absolute;
 	right: 1px;
-	background-image: url(/Group_Project/images/tumblr.png);
+	background-image: url(/NosAlive_Clone/images/tumblr.png);
 	background-size: 100% 100%;
 }
 	
